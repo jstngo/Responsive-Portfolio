@@ -1,0 +1,205 @@
+header {
+background-color: white;
+}
+
+/* Navigation */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+ul.nav {
+  margin-bottom: -8px;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: grey;
+  text-align: center;
+  padding: 40px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: white
+}
+
+li a:hover:not(.active) {
+  background-color: teal;
+}
+
+/* Sticky Footer */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+/* Name on Navigation */
+.name {
+  float: left;
+  color: white;
+  padding: 15px 30px;
+  background-color: teal;
+}
+
+nav {
+  width: 960px;
+  margin: auto;
+}
+
+/* Main Container for all*/
+.main {
+  width: 930px;
+  background-color: white;
+  padding: 15px;
+  margin: auto;
+  margin-top: 2%;
+  min-height: 40%;
+}
+
+h1 {
+  color: teal;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+img {
+  float: left;
+  width: 33%;
+  padding: 18px;
+}
+
+p {
+  padding-bottom: 35px;
+  font-family: 'Arial', 'Helectiva Neue', Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  color: grey;
+}
+
+/* Contact me */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container-contact {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  padding-bottom: 50px;
+}
+
+/* Portfolio */
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 20px;
+  padding-bottom: 50px;
+}
+.grid-item {
+  position: relative;
+  padding: 12px;
+  margin: auto;
+}
+
+.text-block {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  background-color: teal;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* Footer */
+.footer-line {
+  position: fixed;
+  left: 0;
+  bottom: 5;
+  width: 100%;
+  background-color: teal;
+  text-align: center;
+  height: 10px;
+}
+
+.footer-main {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: grey;
+  text-align: center;
+  height: 65px;
+  margin-top: -50px;
+}
+
+#copyright {
+  color: white;
+  padding-top: 38px;
+  font-size: 12px;
+}
+
+@media screen and (max-width: 980px) {
+  nav {max-width: 100%;}
+  html {max-width: 100%; float: left;}
+  body {max-width: 100%; float: left;}
+  .main {max-width: 100%; float: left;}
+  .container-contact {max-width: 100%; float: left;}
+  .grid-container {max-width: 100%;}
+  img {max-width: 100%;}
+  h4 {max-width: 80%; float: right;}
+  .footer-main {max-width: 100%; float: left;}
+  .footer-line {max-width: 100%; float: left;}
+}
+
+@media screen and (max-width: 768px) {
+  nav {max-width: 100%;}
+  html {max-width: 100%; float: left;}
+  body {max-width: 100%; float: left;}
+  .main {max-width: 100%; float: left;}
+  .container-contact {max-width: 100%; float: left;}
+  .grid-container {max-width: 100%;}
+  img {max-width: 100%;}
+  h4 {max-width: 80%; float: right;}
+  .footer-main {max-width: 100%; float: left;}
+  .footer-line {max-width: 100%; float: left;} 
+}
+
+@media screen and (max-width: 640px) {
+  nav {max-width: 100%;}
+  html {max-width: 100%; float: left;}
+  body {max-width: 100%; float: left;}
+  .main {max-width: 100%; float: left;}
+  .container-contact {max-width: 100%; float: left;}
+  .grid-container {max-width: 100%;}
+  img {max-width: 100%;}
+  h4 {max-width: 80%; float: right;}
+  .footer-main {max-width: 100%; float: left;}
+  .footer-line {max-width: 100%; float: left;}
+}
